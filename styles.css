@@ -1,0 +1,153 @@
+body {
+
+    font-family: Arial, sans-serif;
+  
+    background-color: whiteSmoke;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    height: 100vh;
+  
+  }
+  
+  
+  
+  h1 {
+  
+    text-align: center;
+  
+    color: darkSlateGray;
+  
+  }
+  
+  
+  
+  #main-container {
+  
+    width: 300px;
+  
+    background-color: white;
+  
+    border: 1px solid lightGray;
+  
+    border-radius: 5px;
+  
+    padding: 20px;
+  
+    box-shadow: 0 2px 5px gray;
+  
+    text-align: center;
+  
+  }
+  
+  
+  
+  
+  
+  #input {
+  
+    width: 80%;
+  
+    padding: 10px;
+  
+    margin-bottom: 10px;
+  
+    border: 1px solid lightGray;
+  
+    border-radius: 3px;
+  
+    font-size: 16px;
+  
+  }
+  
+  
+  
+  #add {
+  
+    width: 85%;
+  
+    padding: 10px;
+  
+    background-color: royalBlue;
+  
+    color: white;
+  
+    border: none;
+  
+    border-radius: 3px;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+  }
+  
+  
+  
+  #add:hover {
+  
+    background-color: mediumBlue;
+  
+  }
+  
+  
+  
+  
+  
+  #list {
+  
+    margin-top: 20px;
+  
+    padding: 0;
+  
+    list-style: none;
+  
+  }
+  
+  
+  
+  li {
+  
+    padding: 10px;
+  
+    margin-bottom: 5px;
+  
+    background-color: gainsboro;
+  
+    border: 1px solid lightGray;
+  
+    border-radius: 3px;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.2s ease;
+  
+  }
+  
+  
+  
+  li:hover {
+  
+    background-color: lightGray;
+  
+  }
+  
+  
+  
+  li.line-through {
+  
+    text-decoration: line-through;
+  
+    color: dimGray;
+  
+  }
